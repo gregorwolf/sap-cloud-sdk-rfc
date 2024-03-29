@@ -26,7 +26,7 @@ public class RfcController {
     public ResponseEntity<HelloWorldResponse> getHello(
             @RequestParam(name = "name", defaultValue = "USER_NAME_GET") final String name) {
         logger.info("I am running!");
-        System.setProperty("jco.destinations.dir", "/Users/gwolf/Documents/Projects/btp/HTML5UserAPIforCF");
+        System.setProperty("jco.destinations.dir", "/home/user");
         // read environment variable destinations
         String destinations = System.getenv("destinations");
         logger.info("destinations: " + destinations);
