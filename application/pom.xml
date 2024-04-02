@@ -54,14 +54,11 @@
             <artifactId>rfc</artifactId>
             <version>5.6.0</version>
         </dependency>
-        <!-- Re-Activate when destination issue is fixed -->
-        <!--
         <dependency>
             <groupId>com.sap.conn.jco</groupId>
             <artifactId>com.sap.conn.jco.sapjco3</artifactId>
             <version>3.1.9</version>
         </dependency>
-        -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
